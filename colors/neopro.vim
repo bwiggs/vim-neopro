@@ -71,7 +71,7 @@ if has("gui_running")
     hi PreProc        gui=NONE   guifg=#DFC7FF   guibg=#2F0065
     hi Special        gui=NONE   guifg=#9A69FC   guibg=#321F57
     hi SpecialChar    gui=NONE   guifg=#ffffff   guibg=NONE
-    hi Statement      gui=NONE   guifg=#ffffff   guibg=NONE
+    hi Statement      gui=NONE   guifg=#85B2FE   guibg=#1C3644
     hi Todo           gui=BOLD   guifg=#FFD570   guibg=#FF5F00
     hi Type           gui=NONE   guifg=#FF00BF   guibg=#3B0025
     hi Underlined     gui=BOLD   guifg=#ffffff   guibg=NONE
@@ -88,6 +88,9 @@ if has("gui_running")
     " HTML
     hi htmlStatement      gui=NONE   guifg=#FF00BF   guibg=#3B0025
     hi htmlTag            gui=NONE   guifg=#ffffff   guibg=NONE
+    hi htmlHead           gui=NONE   guifg=NONE      guibg=NONE
+    hi htmlArg            gui=NONE   guifg=#00FF00   guibg=#253206
+    hi link htmlSpecialTagName htmlTagName
 
     " CSS
     hi link cssBraces      Normal
@@ -104,6 +107,7 @@ if has("gui_running")
     hi link cssCommonAttr  WarningMsg
     hi link cssRenderAttr  WarningMsg
     hi link cssBoxAttr     WarningMsg
+    hi link cssPseudoClassId Label
 
     " C
     hi cSpecialCharacter  gui=NONE   guifg=#ffffff   guibg=NONE
