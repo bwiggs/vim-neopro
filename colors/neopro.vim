@@ -24,6 +24,7 @@ if has("gui_running")
     hi MoreMsg        gui=BOLD   guifg=#ffffff   guibg=NONE
     hi Question       gui=BOLD   guifg=#ffffff   guibg=NONE
 
+    hi SpellBad       gui=BOLD   guifg=#ffffff   guibg=#800000
     hi StatusLine     gui=BOLD   guifg=#888888   guibg=#222222
     hi User1          gui=BOLD   guifg=#ffffff   guibg=NONE
     hi User2          gui=BOLD   guifg=#ffffff   guibg=NONE
